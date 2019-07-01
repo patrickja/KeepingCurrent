@@ -1,0 +1,227 @@
+<resources>
+    <string name="app_name">Keeping Current</string>
+    <string name="title_activity_about">About the app</string>
+    <string name="about_activity_developer_name">Jason Arendt</string>
+    <string name="title_activity_news_detail">News Detail</string>
+    <string name="title_activity_article_category">News Categories</string>
+    <string name="title_activity_article_search">Search Articles</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_article_all">All Articles</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="news_thumbnail">News Thumbnail</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="nav_title_top_headlines">Top Headlines</string>
+    <string name="nav_title_all_articles">All Articles</string>
+    <string name="nav_title_categories">Categories</string>
+    <string name="nav_title_settings">Settings</string>
+    <string name="nav_title_about">About</string>
+    <string name="nav_group_title_others">Others</string>
+    <string name="nav_group_title_browse">Browse</string>
+    <string name="empty_message_text_news_widget">No articles found</string>
+    <string name="description_divider">Divider</string>
+    <string name="notification_channel_description">Updates user on background news updates</string>
+    <string name="notification_title">News update</string>
+    <string name="image_desc_news">News Image</string>
+    <string name="news_source_unknown">Unknown source</string>
+    <string name="image_transition_name">articleImageTransition</string>
+    <string name="article_share_template">Check out this interesting news article I found using Keeping Current!</string>
+    <string name="new_article_notification_title_template">New news articles available!</string>
+    <string name="search_hint">Search Articles</string>
+    <string name="action_search">Search</string>
+    <string name="app_icon_description">App Icon</string>
+    <string name="server_attribution_splash_screen">NewsAPI.org Sourced</string>
+    <string name="share_intent_chooser_title">Share article using…</string>
+    <string name="news_detail_read_more_button">Read more</string>
+    <string name="news_detail_image_desc">News Image</string>
+    <string name="share_text_mime_type">text/plain</string>
+    <string name="share_article_no_app_to_share">No app available to share</string>
+    <string name="share_article_no_article_selected">Select an article to share</string>
+    <string name="text_article_update_empty">No new news articles</string>
+    <string name="text_article_update_success">Updated with new articles</string>
+    <string name="text_article_update_fail">Failed to load new articles</string>
+    <string name="text_empty_search_string">No search string provided</string>
+    <string name="pref_title_relative_time">Show relative time</string>
+    <string name="pref_summary_relative_time">If enabled, shows time relative to current time (ex: yesterday)</string>
+    <string name="pref_key_relative_time" translatable="false">relative_time</string>
+    <string name="pref_title_update_frequency">Update check frequency</string>
+    <string name="pref_key_update_frequency" translatable="false">update_frequency</string>
+    <string name="pref_positive_button_text_update_frequency">OK</string>
+    <string name="pref_default_update_frequency">15</string>
+    <string name="share_button_description">Share content on social media</string>
+    <string-array name="pref_update_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_update_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_notifications">New articles notifications</string>
+    <string name="pref_summary_notifications">Notify when new articles are available</string>
+    <string name="pref_key_notifications" translatable="false">article_notifications</string>
+    <string name="navigation_header_subtitle">Showing %1$d news articles</string>
+    <string name="pref_key_country" translatable="false">country</string>
+    <string name="pref_title_country">Select preferred country</string>
+    <string name="pref_default_country" translatable="false">us</string>
+    <string-array name="pref_country_values" translatable="false">
+        <item>ae</item>
+        <item>ar</item>
+        <item>at</item>
+        <item>au</item>
+        <item>be</item>
+        <item>bg</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>ch</item>
+        <item>cn</item>
+        <item>co</item>
+        <item>cu</item>
+        <item>cz</item>
+        <item>de</item>
+        <item>eg</item>
+        <item>fr</item>
+        <item>gb</item>
+        <item>gr</item>
+        <item>hk</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>ie</item>
+        <item>il</item>
+        <item>in</item>
+        <item>it</item>
+        <item>jp</item>
+        <item>kr</item>
+        <item>lt</item>
+        <item>lv</item>
+        <item>ma</item>
+        <item>mx</item>
+        <item>my</item>
+        <item>ng</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>nz</item>
+        <item>ph</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>rs</item>
+        <item>ru</item>
+        <item>sa</item>
+        <item>se</item>
+        <item>sg</item>
+        <item>si</item>
+        <item>sk</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>tw</item>
+        <item>ua</item>
+        <item>us</item>
+        <item>ve</item>
+        <item>za</item>
+    </string-array>
+    <string-array name="pref_country_names">
+        <item>United Arab Emirates</item>
+        <item>Argentina</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Bulgaria</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Switzerland</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Cuba</item>
+        <item>Czechia</item>
+        <item>Germany</item>
+        <item>Egypt</item>
+        <item>France</item>
+        <item>United Kingdom of Great Britain and Northern Ireland</item>
+        <item>Greece</item>
+        <item>Hongkong</item>
+        <item>Hungary</item>
+        <item>Indonesia</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>India</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Korea</item>
+        <item>Lithuania</item>
+        <item>Latvia</item>
+        <item>Morocco</item>
+        <item>Mexico</item>
+        <item>Malaysia</item>
+        <item>Nigeria</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>Newzealand</item>
+        <item>Philippines</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Serbia</item>
+        <item>Russian Federation</item>
+        <item>Saudi Arabia</item>
+        <item>Sweden</item>
+        <item>Singapore</item>
+        <item>Slovenia</item>
+        <item>Slovakia</item>
+        <item>Thailand</item>
+        <item>Turkey</item>
+        <item>Taiwan</item>
+        <item>Ukraine</item>
+        <item>United State of America</item>
+        <item>Venezuela</item>
+        <item>South Africa</item>
+    </string-array>
+
+    <string name="pref_title_language">Language for searched articles</string>
+    <string name="pref_key_language" translatable="false">language</string>
+    <string name="pref_default_language">en</string>
+    <string name="test_ad_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string-array name="pref_language_values">
+        <item>ar</item>
+        <item>de</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>he</item>
+        <item>it</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>pt</item>
+        <item>ru</item>
+        <item>se</item>
+        <item>zh</item>
+    </string-array>
+    <string-array name="pref_language_names">
+        <item>Arabic</item>
+        <item>German</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Hebrew</item>
+        <item>Italian</item>
+        <item>Dutch</item>
+        <item>Norwegian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Northern Sami</item>
+        <item>Chinese</item>
+    </string-array>
+</resources>
